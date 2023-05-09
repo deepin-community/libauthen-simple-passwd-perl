@@ -1,0 +1,32 @@
+Description: Fix spelling errors in POD and README
+ Found by Lintian.
+Author: Axel Beckert <abe@debian.org>
+
+Index: libauthen-simple-passwd-perl/README
+===================================================================
+--- libauthen-simple-passwd-perl.orig/README	2014-05-25 03:11:21.175996559 +0200
++++ libauthen-simple-passwd-perl/README	2014-05-25 03:35:41.851934126 +0200
+@@ -35,8 +35,8 @@
+         valid:
+ 
+         * path  Path to passwd file to authenticate against. Any standard
+-                passwd file that has records seperated with newline and
+-                fields seperated by ":" is supported. First field is
++                passwd file that has records separated with newline and
++                fields separated by ":" is supported. First field is
+                 expected to be username and second field, plain or encrypted
+                 password. Required.
+ 
+Index: libauthen-simple-passwd-perl/lib/Authen/Simple/Passwd.pm
+===================================================================
+--- libauthen-simple-passwd-perl.orig/lib/Authen/Simple/Passwd.pm	2014-05-25 03:11:21.179996503 +0200
++++ libauthen-simple-passwd-perl/lib/Authen/Simple/Passwd.pm	2014-05-25 03:35:41.851934126 +0200
+@@ -189,7 +189,7 @@
+ =item * path
+ 
+ Path to passwd file to authenticate against. Any standard passwd file that 
+-has records seperated with newline and fields seperated by C<:> is supported.
++has records separated with newline and fields separated by C<:> is supported.
+ First field is expected to be username and second field, plain or encrypted 
+ password. Required.
+ 
